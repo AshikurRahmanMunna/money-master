@@ -66,14 +66,15 @@ function calculateSave() {
     savingAmountField.innerText = totalSave;
     const saveAmount = parseFloat(savingAmountField.innerText);
     const remainingBalanceField = document.getElementById('remaining-balance');
+    const saveErrorMessage = document.getElementById('save-error-message');
 
     if(balanceAmount < saveAmount) {
-        const saveErrorMessage = document.getElementById('save-error-message');
         saveErrorMessage.innerText = "You don't have enough money to save";
         savingAmountField.innerText = '0';
         remainingBalanceField.innerText = '0';
     }
     else {
+        saveErrorMessage.innerText = '';
         const remainingBalance = balanceAmount - saveAmount;
         remainingBalanceField.innerText = remainingBalance;
     }
