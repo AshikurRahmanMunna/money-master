@@ -16,3 +16,9 @@
 .custom-btn:hover {
     background: transparent;
 }
+/* input arrow remove */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

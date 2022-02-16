@@ -17,19 +17,19 @@
     </header>
     <main>
         <div class="container">
-            <div class="row gx-5">
+            <div class="row gx-5 gy-5">
                 <!-- left Image -->
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                     <img class="img-fluid" src="images/money.jpg" alt="">
                 </div>
                 <!-- right side -->
-                <div class="col-md-6 input bg-light text-center">
+                <div class="col-md-6 col-12 input bg-light text-center">
                     <!-- Income -->
                     <div>
                         <h3 class="mt-5">Income</h3>
                         <div class="d-flex justify-content-center">
                             <label for="income-input"><h5>Income:</h5></label>
-                            <input id="income-input" class="form-control w-50 ms-3" type="text">
+                            <input id="income-input" class="form-control w-50 ms-3" type="number">
                         </div>
                     </div>
                     <!-- Expense -->
@@ -37,17 +37,17 @@
                         <h3 class="pt-4">Expense</h3>
                         <div class="d-flex justify-content-center my-4">
                             <label for="food-input"><h5>Food:</h5></label>
-                            <input id="food-input" class="form-control w-50 ms-3" type="text">
+                            <input id="food-input" class="form-control w-50 ms-3" type="number">
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <label for="rent-input"><h5>Rent:</h5></label>
-                            <input id="rent-input" class="form-control w-50 ms-3" type="text">
+                            <input id="rent-input" class="form-control w-50 ms-3" type="number">
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <label for="cloths-input"><h5>Cloths:</h5></label>
-                            <input id="cloths-input" class="form-control w-50 ms-3" type="text">
+                            <input id="cloths-input" class="form-control w-50 ms-3" type="number">
                         </div>
-                        <h6 id="error-message"></h6>
+                        <h6 id="error-message" class="text-danger"></h6>
                     </div>
                     <!-- calculate btn -->
                     <button id="calculate" class="custom-btn">Calculate</button>
@@ -61,7 +61,7 @@
                     <!-- save -->
                     <div class="save d-flex justify-content-center align-items-center">
                         <label for="save-input"><h5>Save:</h5></label>
-                        <input id="save-input" class="form-control w-25 ms-3" type="text">
+                        <input id="save-input" class="form-control w-25 ms-3" type="number">
                         <h5 class="mx-3">%</h5>
                         <button class="custom-btn">Save</button>
                     </div>
