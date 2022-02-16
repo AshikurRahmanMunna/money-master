@@ -1,0 +1,18 @@
+/* input css */
+.input input {
+    background: rgb(240, 239, 239);
+}
+/* calculate btn css */
+.custom-btn {
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    background: #59A5FF;
+    border-radius: 10px;
+    border: 2px solid #59A5FF;
+    transition: all .3s ease-in-out;
+    box-shadow: 3px 4px 10px 0px gray;
+}
+.custom-btn:hover {
+    background: transparent;
+}
