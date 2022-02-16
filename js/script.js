@@ -11,7 +11,7 @@ function getAndCalculateExpenseTotal() {
     const clothsInput = document.getElementById('cloths-input');
     const clothsCost = parseFloat(clothsInput.value)
     // Handle errors
-    // The input type is number. So there are no option to type string in input. This why i have used one error handling.
+    // The input type is number. So there are no way to type string in input. This why i have used one error handling.
     if(foodCost < 0) {
         errorMessage.innerText = 'Please Input a positive number in Food Field';
     }
