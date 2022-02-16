@@ -47,6 +47,7 @@
                             <label for="cloths-input"><h5>Cloths:</h5></label>
                             <input id="cloths-input" class="form-control w-50 ms-3" type="number">
                         </div>
+                        <!-- error message -->
                         <h6 id="error-message" class="text-danger"></h6>
                     </div>
                     <!-- calculate btn -->
@@ -60,15 +61,17 @@
                     </div>
                     <!-- save -->
                     <div class="save d-flex justify-content-center align-items-center">
-                        <label for="save-input"><h5>Save:</h5></label>
-                        <input id="save-input" class="form-control w-25 ms-3" type="number">
+                        <label for="percent"><h5>Save:</h5></label>
+                        <input id="percent" class="form-control w-25 ms-3" type="number">
                         <h5 class="mx-3">%</h5>
-                        <button class="custom-btn">Save</button>
+                        <button id="save" class="custom-btn">Save</button>
                     </div>
                     <!-- save amount -->
+                    <!-- save error message -->
+                    <h5 id="save-error-message" class="text-center text-danger pt-3"></h5>
                     <div class="save-amount pt-3 text-center">
-                        <h5>Saving Amount: <span id="save-amount">5000</span></h5>
-                        <h5>Remaining Balance: <span id="remaining-balance">2500</span></h5>
+                        <h5>Saving Amount: <span id="save-amount">0</span></h5>
+                        <h5>Remaining Balance: <span id="remaining-balance">0</span></h5>
                     </div>
                 </div>
             </div>
